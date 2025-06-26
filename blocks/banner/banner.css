@@ -1,0 +1,35 @@
+.eds-custom-block {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  max-width: 800px;
+  margin: auto;
+}
+
+.eds-title-row h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  color: #333;
+}
+
+.eds-subtitle-row p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #666;
+  margin: 0;
+}
+
+.eds-image-row {
+  text-align: center;
+}
+
+.eds-image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
